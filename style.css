@@ -1,0 +1,419 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+nav {
+  background-color: rgb(0, 216, 202);
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  height: 44px;
+  width: 100%;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: rgb(1, 197, 178);
+  margin-left: 20px;
+}
+
+h3 {
+  color: rgb(1, 197, 178);
+  font-size: small;
+  margin-left: 20px;
+  margin-top: -25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* end header */
+
+/* content */
+.content {
+  float: left;
+  width: 70%;
+}
+
+/* daftar isi */
+.daftarisi {
+  margin-right: 10px;
+  float: left;
+  width: 10%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 22px;
+}
+
+.daftarisi a {
+  color: rgb(131, 17, 207);
+}
+.daftarisi h2 {
+  color: rgb(0, 216, 202);
+}
+
+.daftarisi ol {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.daftarisi ul {
+  list-style-type: none;
+}
+
+.daftarisi li {
+  text-align: left;
+  color: rgb(89, 6, 150);
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.daftarisi a:hover {
+  color: rgb(16, 151, 161);
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+/* end daftar isi */
+
+/* sejarah */
+.sejarah {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.sejarah h1 {
+  margin-top: 60px;
+  color: rgb(0, 216, 202);
+  font-weight: bold;
+}
+
+.sejarah p {
+  color: rgb(47, 47, 47);
+  text-align: justify;
+}
+
+.image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+/* end sejarah */
+
+/* suku */
+.suku {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.suku h1 {
+  margin-top: 60px;
+  color: rgb(0, 216, 202);
+  font-weight: bold;
+}
+
+.suku p {
+  color: rgb(47, 47, 47);
+  text-align: justify;
+}
+
+.image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+/* end suku */
+
+/* bahasa */
+.bahasa {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.bahasa h1 {
+  margin-top: 60px;
+  color: rgb(0, 216, 202);
+  font-weight: bold;
+}
+
+.bahasa p {
+  color: rgb(47, 47, 47);
+  text-align: justify;
+}
+
+.bahasa li {
+  color: rgb(89, 6, 150);
+  font-weight: bold;
+}
+/* end bahasa */
+
+/* budaya */
+.budaya {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.budaya h1 {
+  margin-top: 60px;
+  color: rgb(0, 216, 202);
+  font-weight: bold;
+}
+
+.budaya h2 {
+  color: rgb(89, 6, 150);
+  font-weight: lighter;
+  text-align: center;
+}
+
+.budaya p {
+  color: rgb(47, 47, 47);
+  text-align: justify;
+}
+
+.budaya li {
+  color: rgb(47, 47, 47);
+  text-align: justify;
+}
+/* end budaya */
+
+/* image */
+
+.container {
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 216, 202);
+  font-weight: bold;
+}
+
+.container h4 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(89, 6, 150);
+  font-weight: bold;
+}
+.container p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+button {
+  background: rgb(0, 216, 202);
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* end image */
+
+/* about */
+.about img {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.about {
+  float: right;
+  width: 10%;
+  text-align: center;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 26px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h2 {
+  text-align: center;
+  color: rgb(0, 216, 202);
+  margin-top: 20px;
+}
+
+.about span {
+  font-weight: bolder;
+  color: rgb(131, 17, 207);
+  font-size: 10px;
+}
+.about ul {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.about li {
+  text-align: center;
+  font-size: 10px;
+  margin-left: -15px;
+}
+/* end about */
+
+/* end content */
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  line-height: 60px;
+  background: rgb(0, 216, 202);
+  color: black;
+  float: right;
+}
+
+.footer img {
+  margin-top: 20px;
+}
+/* end footer */
+
+/* 800px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .daftarisi {
+    width: 92%;
+  }
+}
+/* end 800px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about img {
+    width: 30%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about li {
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about span {
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* 600px */
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about img {
+    width: 40%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about span {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about li {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .daftarisi {
+    width: 89%;
+  }
+}
+/* end 600px */
+
+/* end 500px */
